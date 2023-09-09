@@ -1,0 +1,218 @@
+  @font-face {
+    font-family: ;
+    src: url();
+  } 
+  body{
+    background-color: lightsteelblue;
+  }
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+#list{
+    text-align: center;
+    font-size: 72px ;
+    background-color: rgba(189, 189, 46, 0.534);
+    color: rgba(165, 42, 42, 0.755);
+    text-shadow: 3px 2px 5px black;
+}
+  h1,h2,h3{
+    color: red;
+    background-color: rgba(38, 153, 153, 0.74);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large ;
+    text-decoration: underline;
+} 
+p { text-transform: uppercase;
+    line-height: 1.4em;
+    word-spacing: normal ;
+    letter-spacing: normal;
+    text-align: justify;
+}
+.para{
+    text-indent:50px;
+}
+.bio{
+    color:black ;
+    background-color: rgb(247, 137, 137);
+}
+p em{
+    color:black ;
+    background-color: rgba(206, 88, 88, 0.349);
+}
+
+body{
+    text-align: justify;
+} 
+h1#change:first-letter{
+    font-size: 100px;
+}
+p#list::first-line{
+font-size: 100px;
+}
+a.format:link{
+color: rgb(143, 98, 39);
+text-decoration: none;
+}
+a.format:visited{
+    color: rgba(167, 28, 74, 0.034);
+}
+
+img{
+    width: 500px;
+}
+.mein {
+border: 5px solid crimson;
+ min-width: 100px ;
+ max-width: 500px;
+ min-height: 100px; 
+ max-height: 600px;
+ overflow: scroll;
+ padding: 50px;
+ margin: 50px auto 50px;
+box-shadow: 5px 5px 3px gray;
+border-radius: 20px ;
+
+}
+li#change {
+
+    background-color: rgb(204, 128, 153) ; 
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+    display: none ;
+    list-style: none ;
+} 
+table{
+    width: 400px;
+    margin: 50px;
+    border-collapse: collapse;
+    border-spacing: 0px 0px ;
+    empty-cells: hide;
+}
+tr.even{
+    background-color: rgba(81, 126, 204, 0.913);
+}
+tr:hover{
+    background-color: gray;
+}
+th,td{
+    padding: 9px;
+    border: 2px solid black;
+}
+form{
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+}
+input{
+padding: 8px;
+margin: 4px;
+font-size: 1em;
+border-radius: 8px;
+}
+input:hover{
+    background-color:rgba(0, 255, 255, 0.29) ;
+}
+input:focus{
+    background-color: rgba(220, 220, 220, 0.93); 
+    border-color: grey;
+}
+input#email{
+    background-image: url("https://e7.pngegg.com/pngimages/413/310/png-clipart-techspan-industries-inc-computer-icons-email-aol-mail-email-miscellaneous-blue.png");
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding: 9px 9px 9px 30px;
+}
+input#password{
+    background-image: url("https://www.nicepng.com/png/detail/207-2073110_password-comments-privacy-policy-icon-png.png");
+    background-size: 25px;
+    background-repeat: no-repeat ;
+    padding: 8px 8px 8px 25px;
+}
+button:hover{
+    background-color: gray;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+    font-size:1em; 
+    border:none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.904);
+    border-radius: 10px;
+    cursor: pointer ;
+    
+}
+fieldset{
+    border-radius: 5px;
+   border: 3px solid grey;
+   min-width: 100px ;
+ max-width: 500px;
+ min-height: 100px; 
+ max-height: 900px;
+ margin: auto;
+ padding: 50px;
+}
+legend{
+    padding: 10px;
+    background-color: lightgrey ;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius:5px ;
+}
+.canar{
+    text-align: center;
+}
+
+#abc{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+ul#en{
+    list-style: inside square;
+}
+.black{
+background-color: black;
+height: 100px;
+width: 100px ;
+display: inline-block;
+margin: 5px 10px 5px 10px;
+}
+.white{
+    background-color: white;
+    height: 100px;
+    width: 100px ;
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    
+}
+.im{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 7010px;
+    right: 280px;
+}
+.go-top{
+    position: fixed;
+bottom: 35px;
+right: 35px;
+border-radius: 50px;
+cursor: pointer;
+width: 100px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+background-color: seashell;
+border: 3px solid black;
+scroll-behavior: smooth;
+
+}
+.go-top img{
+    width: 50px;
+    height: 50px;
+}
